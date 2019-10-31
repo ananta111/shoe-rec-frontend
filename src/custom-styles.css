@@ -1,0 +1,33 @@
+.center {
+    margin: auto;
+    width: 30%;
+    border: 3px dotted darkslateblue;
+    padding: 3em;
+}
+
+.resultrow {
+    width: 70%;
+    border: 3px  darkslateblue;
+    margin-top: 1em;
+    marging-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-top: 1em;
+}
+
+.cardcontent {
+    position: relative;
+    float: right;
+}
+
+.shoeimage {
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 150px;
+    float: right;
+    border: 1px dotted black;
+}
+
+
+
