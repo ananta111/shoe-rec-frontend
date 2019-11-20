@@ -8,7 +8,9 @@ import Chip from "@material-ui/core/Chip";
 import "../custom-styles.css"
 import Button from "@material-ui/core/Button";
 import {InputLabel} from "@material-ui/core";
-import {post, get, getById} from "./api-requests";
+import {Route} from "react-router-dom"
+import {post, get, getRecommendations} from "./api-requests";
+import InputForm from "./InputForm";
 
 class Questionnaire extends Component{
     state = {
@@ -36,8 +38,19 @@ class Questionnaire extends Component{
         await this.checkCompleteness();
     };
 
-    handleSubmit = async () => {
-        window.location = "http://localhost:3000/results";
+    handleSubmit = async () =>{
+        let {age, gender, budget, size, tags } = this.state;
+        budget = Number(budget);
+        const data = {age, gender, budget, size, tags};
+        console.log("dadada", data);
+        const results = await getRecommendations(data);
+        console.log(results);
+        this.props.history.push(
+            {
+                pathname: "/results",
+                results: results,
+            }
+        );
     };
 
     render() {
@@ -103,6 +116,7 @@ class Questionnaire extends Component{
                     >
                         <MenuItem value = "Male" >Male</MenuItem>
                         <MenuItem value = "Female" >Female</MenuItem>
+                        <MenuItem value = "Unisex" >Unisex</MenuItem>
                     </Select>
                 </FormControl><br/><br/>
 
