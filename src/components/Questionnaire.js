@@ -48,7 +48,7 @@ class Questionnaire extends Component{
         this.props.history.push(
             {
                 pathname: "/results",
-                results: results,
+                results: results.data,
             }
         );
     };

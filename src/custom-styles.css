@@ -13,6 +13,7 @@
     margin-left: 1em;
     margin-right: 1em;
     padding-top: 1em;
+    background-color: thistle;
 }
 
 .cardcontent {
@@ -27,6 +28,7 @@
     height: 150px;
     float: right;
     border: 1px dotted black;
+    background-color: darkslateblue;
 }
 
 

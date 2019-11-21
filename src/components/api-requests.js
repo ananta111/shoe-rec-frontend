@@ -17,5 +17,5 @@ export async function getById(id){
 
 export async function getRecommendations(data){
     const url = "http://localhost:3000/recommendations/shoes"
-    return await axios.get(url, { params: data });
+    return await axios.post(url, data);
 }

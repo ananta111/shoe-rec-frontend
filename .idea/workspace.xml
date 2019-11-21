@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="611fd99c-1518-4b72-b168-7555d8183ea1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/images/shoe_image.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Questionnaire.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Questionnaire.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ResultRow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ResultRow.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Results.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Results.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/api-requests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/api-requests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/custom-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/custom-styles.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -42,7 +46,12 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/public/images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -86,7 +95,7 @@
       <workItem from="1571014831880" duration="27189000" />
       <workItem from="1571773569628" duration="730000" />
       <workItem from="1572111905673" duration="460000" />
-      <workItem from="1572545621303" duration="19186000" />
+      <workItem from="1572545621303" duration="22073000" />
     </task>
     <servers />
   </component>
