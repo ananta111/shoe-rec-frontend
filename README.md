@@ -1,3 +1,5 @@
+https://shoerec.herokuapp.com The first load will be a little slow because I am using the free version of heroku cloud.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
